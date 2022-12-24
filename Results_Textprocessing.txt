@@ -1,0 +1,34 @@
+RESULTS
+
+1. Difference oberved between 1.4 and 1.5
+
+On camparing 1.4 and 1.5.
+Number of the sample words decreased on lemmatizing the text.
+The number of samples decreased from 5628 to 5109, even tough the distinct count of the words remain same 40785.
+On lemmatizing the text, the word switches back  to its root word.
+Therefore reducing the number of samples.
+
+
+2. Difference between two word clouds
+
+[1] First cloud has words starting with uppercase where as the second cloud has words with all in lowercase.To be more particluar it considers 'Harry' and 'harry' to be two different words.This can indirectly have higher number of samples.
+[2] First clouds has "Bigram" words where as second cloud has "unigram" words
+    for example: first cloud has a phase "said harry", "said Ron" etc which is not observed in second cloud.
+
+3. Difference between text data processing and numeric data processing
+
+The differences observed:
+    
+[1] The text data processing gives a quick information just in glance about the words used with its attractive colors and its size where as numeric data gives exact information on the count of each word repeated.
+
+For Example: In tect data processing from image ii we find that harry has the largest size so its easy to get informatiomn when accurate info is not required. Whereas, in numeric data processing exact number of times the word harry used information will be provided.
+
+[2] On using Numeric data processing, we set more insights on the word. 
+
+For example: It gives more information about the total number of words, number of sentences in the text, count of each word repeated.  
+
+This does not happen in text processing.
+
+[3] On using Text data processing, one may arrive at a question of two words having similar size and trying to interpret which word amoung them has occured frequently.No judgement can be drawn from this.
+
+[4] To get appropriate results, one must preprocess the data and then use text data processing. 
